@@ -3,7 +3,7 @@ import { Box,  Flex, Image, Link, Spacer} from "@chakra-ui/react";
 import Discord from "./assets/social-media-icons/discord_32x32.png";
 import Twitter from "./assets/social-media-icons/twitter_32x32.png";
 import Email from "./assets/social-media-icons/email_32x32.png";
-import { Link as Links, NavLink, Router } from "react-router-dom";
+import { Link as Links, NavLink } from "react-router-dom";
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 
