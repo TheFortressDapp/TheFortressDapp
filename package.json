@@ -1,5 +1,4 @@
 {
-  "homepage": "http://thefortressdapp.github.io/TheFortressWebsite",
   "name": "full-mint-website",
   "version": "0.1.0",
   "private": true,
@@ -25,6 +24,7 @@
     "styled-components": "^5.3.5",
     "web-vitals": "^2.1.4"
   },
+  "homepage": "http://thefortressdapp.github.io/TheFortressWebsite",
   "scripts": {
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
