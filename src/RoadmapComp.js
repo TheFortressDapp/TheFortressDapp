@@ -1,6 +1,5 @@
 import React from "react";
 import { Box, Flex, Text, Image } from "@chakra-ui/react";
-import Logo from "./assets/background/The_Fortress_Logo_Clear.png";
 
 
 

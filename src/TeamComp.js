@@ -1,19 +1,14 @@
 import React from "react";
-import { Box, Flex, Text, Image, Stack, color } from "@chakra-ui/react";
-import Logo from "./assets/background/The_Fortress_Logo_Clear.png";
-import crew_avatar1 from "./assets/team-images/crew_avatar1.png";
+import { Flex, Text, Image, Stack } from "@chakra-ui/react";
 import Killabears from "./assets/team-images/KillaBears.png"
 import Women_From_Venys from "./assets/team-images/Women_From_Venus.jpg"
 import SmallBros from "./assets/team-images/SmallBros.png"
 import Evil_Ape_Club from "./assets/team-images/Evil_Ape_Club.png"
 import MiniSupers from "./assets/team-images/MiniSupers.png"
-import Discord from "./assets/social-media-icons/discord_32x32.png";
 import Twitter from "./assets/social-media-icons/twitter_32x32.png";
 import Email from "./assets/social-media-icons/email_32x32.png";
 import { Link } from "@chakra-ui/react";
-import Check from "./assets/team-images/ab-icon-image.png"
 import { FcApproval } from "react-icons/fc";
-import { IconContext } from "react-icons";
 import './App.css';
 
 
