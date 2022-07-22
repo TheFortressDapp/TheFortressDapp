@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/thefortressdapp/precache-manifest.63a7876f9061491c789c817c090a3edb.js"
+  "/thefortressdapp/precache-manifest.efa9c87802815f7c24ef9ee38d0bc190.js"
 );
 
 workbox.clientsClaim();

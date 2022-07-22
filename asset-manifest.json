@@ -1,10 +1,10 @@
 {
   "main.css": "/thefortressdapp/static/css/main.4877bfa0.chunk.css",
-  "main.js": "/thefortressdapp/static/js/main.e4b33962.chunk.js",
-  "main.js.map": "/thefortressdapp/static/js/main.e4b33962.chunk.js.map",
+  "main.js": "/thefortressdapp/static/js/main.763ed424.chunk.js",
+  "main.js.map": "/thefortressdapp/static/js/main.763ed424.chunk.js.map",
   "static/css/1.201c54ba.chunk.css": "/thefortressdapp/static/css/1.201c54ba.chunk.css",
-  "static/js/1.62da8b1a.chunk.js": "/thefortressdapp/static/js/1.62da8b1a.chunk.js",
-  "static/js/1.62da8b1a.chunk.js.map": "/thefortressdapp/static/js/1.62da8b1a.chunk.js.map",
+  "static/js/1.e5467656.chunk.js": "/thefortressdapp/static/js/1.e5467656.chunk.js",
+  "static/js/1.e5467656.chunk.js.map": "/thefortressdapp/static/js/1.e5467656.chunk.js.map",
   "runtime~main.js": "/thefortressdapp/static/js/runtime~main.f26d3762.js",
   "runtime~main.js.map": "/thefortressdapp/static/js/runtime~main.f26d3762.js.map",
   "static/media/The_Fortress_Logo_Clear.png": "/thefortressdapp/static/media/The_Fortress_Logo_Clear.ffe29aaf.png",
@@ -13,9 +13,9 @@
   "static/media/SmallBros.png": "/thefortressdapp/static/media/SmallBros.d98e83ef.png",
   "static/media/Evil_Ape_Club.png": "/thefortressdapp/static/media/Evil_Ape_Club.3386627c.png",
   "static/media/MiniSupers.png": "/thefortressdapp/static/media/MiniSupers.7f05ca4b.png",
-  "static/css/1.201c54ba.chunk.css.map": "/thefortressdapp/static/css/1.201c54ba.chunk.css.map",
   "static/css/main.4877bfa0.chunk.css.map": "/thefortressdapp/static/css/main.4877bfa0.chunk.css.map",
+  "static/css/1.201c54ba.chunk.css.map": "/thefortressdapp/static/css/1.201c54ba.chunk.css.map",
   "index.html": "/thefortressdapp/index.html",
-  "precache-manifest.63a7876f9061491c789c817c090a3edb.js": "/thefortressdapp/precache-manifest.63a7876f9061491c789c817c090a3edb.js",
+  "precache-manifest.efa9c87802815f7c24ef9ee38d0bc190.js": "/thefortressdapp/precache-manifest.efa9c87802815f7c24ef9ee38d0bc190.js",
   "service-worker.js": "/thefortressdapp/service-worker.js"
 }
