@@ -62,7 +62,7 @@ function RoadmapComp (){
                         - Build "The Fortress" in the Metaverse -
                     </Text>
                     <Text fontSize="24px" letterSpacing="-5.5%" fontFamily="VT323" textShadow="0 2px #000000"> 
-                        - Initiate "The Fortress" Recruitment -
+                        - Initiate "The Fortress" Training -
                     </Text>
 
                 
