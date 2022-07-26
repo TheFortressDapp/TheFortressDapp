@@ -29,7 +29,7 @@ function App() {
     <NavBar accounts={accounts} setAccounts={setAccounts} />
   
     <Routes>
-    <Route path="/" element={<MainMint/>}/>
+    <Route path="/" element={<MintingSoon/>}/>
     <Route path="/roadmap" element={<RoadmapComp/>}/>
     <Route path="/team" element={<TeamComp/>}/>
     <Route path="/fort" element={<FortComp/>}/>
