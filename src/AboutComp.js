@@ -12,7 +12,7 @@ function AboutComp() {
 
             <Box justify="center" width="1000px" >
                 <div>
-                    <Text fontSize="20px" textShadow="0 5px #000000" marginBottom='30'>
+                    <Text fontSize="40px" textShadow="0 5px #000000" marginBottom='30'>
                         Our Story
                     </Text>
 
