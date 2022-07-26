@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "2524be0e30be3e41a379",
+    "revision": "87b8d95ebc977ab1a2b0",
     "url": "/TheFortressDapp/static/css/main.aa43215b.chunk.css"
   },
   {
-    "revision": "2524be0e30be3e41a379",
-    "url": "/TheFortressDapp/static/js/main.2524be0e.chunk.js"
+    "revision": "87b8d95ebc977ab1a2b0",
+    "url": "/TheFortressDapp/static/js/main.87b8d95e.chunk.js"
   },
   {
     "revision": "e5467656f362c3a8c233",
@@ -44,7 +44,7 @@ self.__precacheManifest = [
     "url": "/TheFortressDapp/static/media/MiniSupers.7f05ca4b.png"
   },
   {
-    "revision": "fb977c81ff22edc28deb9a4e481e50bd",
+    "revision": "4c892367a5dd806abc07d4a8d787ad2e",
     "url": "/TheFortressDapp/index.html"
   }
 ];
