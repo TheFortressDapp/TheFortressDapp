@@ -60,8 +60,7 @@ const NavBar = ({ accounts, setAccounts }) => {
                     
                     
 
-                            <NavLink exact to="/" style={{ color: 'white', textDecoration: 'none' }} ><Box fontSize="30" margin="0 15px" paddingTop={"15"}
-                            >Home</Box></NavLink>
+                            <NavLink exact to="/" style={{ color: 'white', textDecoration: 'none' }} ><Box fontSize="30" margin="0 15px" paddingTop={"15"}>Home</Box></NavLink>
                             <Spacer />
                             <NavLink exact to="/about" style={{ color: 'white', textDecoration: 'none' }}><Box fontSize="30" margin="0 15px" paddingTop={"15"}>About</Box> </NavLink>
                             <Spacer />
@@ -91,7 +90,7 @@ const NavBar = ({ accounts, setAccounts }) => {
                                     color="white"
                                     cursor="pointer"
                                     fontFamily="inherit"
-                                    padding="15px"
+                                    padding="05px"
                                     margin="0 5px"
                                     fontSize="30"
                                     onClick={connectAccount}
