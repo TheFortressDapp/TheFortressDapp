@@ -60,16 +60,16 @@ const NavBar = ({ accounts, setAccounts }) => {
                     
                     
 
-                            <NavLink exact to="/" style={{ color: 'white', textDecoration: 'none' }} ><Box margin="0 15px" paddingTop={"15"}
+                            <NavLink exact to="/" style={{ color: 'white', textDecoration: 'none' }} ><Box fontSize="30" margin="0 15px" paddingTop={"15"}
                             >Home</Box></NavLink>
                             <Spacer />
-                            <NavLink exact to="/about" style={{ color: 'white', textDecoration: 'none' }}><Box margin="0 15px" paddingTop={"15"}>About</Box> </NavLink>
+                            <NavLink exact to="/about" style={{ color: 'white', textDecoration: 'none' }}><Box fontSize="30" margin="0 15px" paddingTop={"15"}>About</Box> </NavLink>
                             <Spacer />
-                            <NavLink exact to="/roadmap" style={{ color: 'white', textDecoration: 'none' }}><Box margin="0 15px" paddingTop={"15"}>Roadmap</Box> </NavLink>
+                            <NavLink exact to="/roadmap" style={{ color: 'white', textDecoration: 'none' }}><Box fontSize="30" margin="0 15px" paddingTop={"15"}>Roadmap</Box> </NavLink>
                             <Spacer />
-                            <NavLink exact to="/team" style={{ color: 'white', textDecoration: 'none' }}><Box margin="0 15px" paddingTop={"15"}>Team</Box> </NavLink>
+                            <NavLink exact to="/team" style={{ color: 'white', textDecoration: 'none' }}><Box fontSize="30" margin="0 15px" paddingTop={"15"}>Team</Box> </NavLink>
                             <Spacer />
-                            <NavLink exact to="/fort" style={{ color: 'white', textDecoration: 'none' }}><Box margin="0 15px" paddingTop={"15"}>Fort</Box> </NavLink>
+                            <NavLink exact to="/fort" style={{ color: 'white', textDecoration: 'none' }}><Box fontSize="30" margin="0 15px" paddingTop={"15"}>Fort</Box> </NavLink>
                             <Spacer />
 
                             {isConnected ? (
@@ -81,7 +81,8 @@ const NavBar = ({ accounts, setAccounts }) => {
                                     cursor="pointer"
                                     fontFamily="inherit"
                                     padding="15px"
-                                    margin="0 15px">Connected</Box>
+                                    margin="0 15px"
+                                    fontSize="30">Connected</Box>
                             ) : (
                                 <Box
                                     backgroundColor="#4267B3"
@@ -92,6 +93,7 @@ const NavBar = ({ accounts, setAccounts }) => {
                                     fontFamily="inherit"
                                     padding="15px"
                                     margin="0 15px"
+                                    fontSize="30"
                                     onClick={connectAccount}
                                 > Connect </Box>
                             )}

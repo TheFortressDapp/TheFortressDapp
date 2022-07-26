@@ -4,9 +4,6 @@ import Logo from "./assets/background/The_Fortress_Logo_Clear.png";
 
 
 
-
-
-
 function TeamComp (){
 
     
