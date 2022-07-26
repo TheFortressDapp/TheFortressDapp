@@ -1,7 +1,7 @@
 {
   "main.css": "/TheFortressDapp/static/css/main.aa43215b.chunk.css",
-  "main.js": "/TheFortressDapp/static/js/main.4b69a713.chunk.js",
-  "main.js.map": "/TheFortressDapp/static/js/main.4b69a713.chunk.js.map",
+  "main.js": "/TheFortressDapp/static/js/main.e037f44a.chunk.js",
+  "main.js.map": "/TheFortressDapp/static/js/main.e037f44a.chunk.js.map",
   "static/css/1.201c54ba.chunk.css": "/TheFortressDapp/static/css/1.201c54ba.chunk.css",
   "static/js/1.e5467656.chunk.js": "/TheFortressDapp/static/js/1.e5467656.chunk.js",
   "static/js/1.e5467656.chunk.js.map": "/TheFortressDapp/static/js/1.e5467656.chunk.js.map",
@@ -16,6 +16,6 @@
   "static/css/main.aa43215b.chunk.css.map": "/TheFortressDapp/static/css/main.aa43215b.chunk.css.map",
   "static/css/1.201c54ba.chunk.css.map": "/TheFortressDapp/static/css/1.201c54ba.chunk.css.map",
   "index.html": "/TheFortressDapp/index.html",
-  "precache-manifest.1839002b741ea288107a73ee5b38a3a0.js": "/TheFortressDapp/precache-manifest.1839002b741ea288107a73ee5b38a3a0.js",
+  "precache-manifest.46cd326c025130fa9d253af165a84d8c.js": "/TheFortressDapp/precache-manifest.46cd326c025130fa9d253af165a84d8c.js",
   "service-worker.js": "/TheFortressDapp/service-worker.js"
 }
