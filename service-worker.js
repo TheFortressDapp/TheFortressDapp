@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/thefortressdapp/precache-manifest.efa9c87802815f7c24ef9ee38d0bc190.js"
+  "/TheFortressDapp/precache-manifest.1839002b741ea288107a73ee5b38a3a0.js"
 );
 
 workbox.clientsClaim();
@@ -28,7 +28,7 @@ self.__precacheManifest = [].concat(self.__precacheManifest || []);
 workbox.precaching.suppressWarnings();
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
 
-workbox.routing.registerNavigationRoute("/thefortressdapp/index.html", {
+workbox.routing.registerNavigationRoute("/TheFortressDapp/index.html", {
   
   blacklist: [/^\/_/,/\/[^/]+\.[^/]+$/],
 });
