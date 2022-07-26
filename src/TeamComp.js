@@ -28,10 +28,10 @@ function TeamComp() {
             <Flex justify="center" align="top" marginTop="5" >
                 <div>
 
-                    <Text fontSize="20px" textShadow="0 5px #000000" paddingTop="30px" paddingBottom="15px">
+                    <Text fontSize="40px" textShadow="0 5px #000000" paddingTop="30px" paddingBottom="15px">
                         MEET THE TEAM
                     </Text>
-                    <Text fontSize="20px" letterSpacing="-3%" fontFamily="VT323">
+                    <Text fontSize="35px" letterSpacing="-3%" fontFamily="VT323">
                         Amazing talent devoted to a single mission: To give you peace of mind on your Metaverse journey.
 
                     </Text>
@@ -47,14 +47,14 @@ function TeamComp() {
                         <div >
                             <Image src={Killabears} boxSize="200px" justify="center" align="top" />
                             <Flex align={'center'} justify="center">
-                                <Text fontSize="18px" justify="center" margin="6px">
+                                <Text fontSize="25px" justify="center" margin="6px">
                                     Mer
                                 </Text>
                                 
                                     <FcApproval  />
                                     
                             </Flex>
-                            <Text fontSize="12px" justify="center" margin="6px">
+                            <Text fontSize="20px" justify="center" margin="6px">
                                 Founder
                             </Text>
                             <Flex justify="center" >
@@ -75,12 +75,12 @@ function TeamComp() {
                         <div>
                             <Image src={Evil_Ape_Club} boxSize="200px" justify="center" />
                             <Flex align={'center'} justify="center">
-                                <Text fontSize="18px" justify="center" margin="6px">
+                                <Text fontSize="25px" justify="center" margin="6px">
                                     Mer
                                 </Text>
                                 <FcApproval />
                             </Flex>
-                            <Text fontSize="12px" justify="center" margin="6px">
+                            <Text fontSize="20px" justify="center" margin="6px">
                                 Blockchain Dev
                             </Text>
 
@@ -101,12 +101,12 @@ function TeamComp() {
                         <div>
                             <Image src={MiniSupers} boxSize="200px" justify="center" />
                             <Flex align={'center'} justify="center">
-                                <Text fontSize="18px" justify="center" margin="6px">
+                                <Text fontSize="25px" justify="center" margin="6px">
                                     Mer
                                 </Text>
                                 <FcApproval />
                             </Flex>
-                            <Text fontSize="12px" justify="center" margin="6px">
+                            <Text fontSize="20px" justify="center" margin="6px">
                                 Web Designer
                             </Text>
 
@@ -128,13 +128,13 @@ function TeamComp() {
                         <div>
                             <Image src={SmallBros} boxSize="200px" justify="center" />
                             <Flex align={'center'} justify="center">
-                                <Text fontSize="18px" justify="center" margin="6px">
+                                <Text fontSize="25px" justify="center" margin="6px">
                                     Mer
                                 </Text>
                                 <FcApproval />
                             </Flex>
 
-                            <Text fontSize="12px" justify="center" margin="6px">
+                            <Text fontSize="20px" justify="center" margin="6px">
                                 Artist
                             </Text>
                             <Flex justify="center" >
@@ -155,13 +155,13 @@ function TeamComp() {
                         <div>
                             <Image src={Women_From_Venys} boxSize="200px" justify="center" />
                             <Flex align={'center'} justify="center">
-                                <Text fontSize="18px" justify="center" margin="6px">
+                                <Text fontSize="25px" justify="center" margin="6px">
                                     Mer
                                 </Text>
                                 <FcApproval />
                             </Flex>
 
-                            <Text fontSize="12px" justify="center" margin="6px">
+                            <Text fontSize="20px" justify="center" margin="6px">
                                 Marketing
                             </Text>
                             <Flex justify="center" >
