@@ -80,7 +80,7 @@ const NavBar = ({ accounts, setAccounts }) => {
                                     color="white"
                                     cursor="pointer"
                                     fontFamily="inherit"
-                                    padding="15px"
+                                    padding="5px"
                                     margin="0 15px"
                                     fontSize="30">Connected</Box>
                             ) : (
@@ -92,7 +92,7 @@ const NavBar = ({ accounts, setAccounts }) => {
                                     cursor="pointer"
                                     fontFamily="inherit"
                                     padding="15px"
-                                    margin="0 15px"
+                                    margin="0 5px"
                                     fontSize="30"
                                     onClick={connectAccount}
                                 > Connect </Box>
