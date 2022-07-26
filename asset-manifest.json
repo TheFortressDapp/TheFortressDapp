@@ -1,7 +1,7 @@
 {
   "main.css": "/TheFortressDapp/static/css/main.aa43215b.chunk.css",
-  "main.js": "/TheFortressDapp/static/js/main.8edf2a40.chunk.js",
-  "main.js.map": "/TheFortressDapp/static/js/main.8edf2a40.chunk.js.map",
+  "main.js": "/TheFortressDapp/static/js/main.7d3bd0d1.chunk.js",
+  "main.js.map": "/TheFortressDapp/static/js/main.7d3bd0d1.chunk.js.map",
   "static/css/1.201c54ba.chunk.css": "/TheFortressDapp/static/css/1.201c54ba.chunk.css",
   "static/js/1.e5467656.chunk.js": "/TheFortressDapp/static/js/1.e5467656.chunk.js",
   "static/js/1.e5467656.chunk.js.map": "/TheFortressDapp/static/js/1.e5467656.chunk.js.map",
@@ -13,9 +13,9 @@
   "static/media/SmallBros.png": "/TheFortressDapp/static/media/SmallBros.d98e83ef.png",
   "static/media/Evil_Ape_Club.png": "/TheFortressDapp/static/media/Evil_Ape_Club.3386627c.png",
   "static/media/MiniSupers.png": "/TheFortressDapp/static/media/MiniSupers.7f05ca4b.png",
-  "static/css/1.201c54ba.chunk.css.map": "/TheFortressDapp/static/css/1.201c54ba.chunk.css.map",
   "static/css/main.aa43215b.chunk.css.map": "/TheFortressDapp/static/css/main.aa43215b.chunk.css.map",
+  "static/css/1.201c54ba.chunk.css.map": "/TheFortressDapp/static/css/1.201c54ba.chunk.css.map",
   "index.html": "/TheFortressDapp/index.html",
-  "precache-manifest.f93a12802552d1b7f2bda7d9621dfb0f.js": "/TheFortressDapp/precache-manifest.f93a12802552d1b7f2bda7d9621dfb0f.js",
+  "precache-manifest.79a28bbd5e7587070f75ea8bbaec71c2.js": "/TheFortressDapp/precache-manifest.79a28bbd5e7587070f75ea8bbaec71c2.js",
   "service-worker.js": "/TheFortressDapp/service-worker.js"
 }
