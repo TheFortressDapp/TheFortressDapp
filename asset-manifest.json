@@ -1,7 +1,7 @@
 {
   "main.css": "/static/css/main.161459fb.chunk.css",
-  "main.js": "/static/js/main.63030176.chunk.js",
-  "main.js.map": "/static/js/main.63030176.chunk.js.map",
+  "main.js": "/static/js/main.57006bdb.chunk.js",
+  "main.js.map": "/static/js/main.57006bdb.chunk.js.map",
   "static/css/1.fa92e4c3.chunk.css": "/static/css/1.fa92e4c3.chunk.css",
   "static/js/1.0bd1c92a.chunk.js": "/static/js/1.0bd1c92a.chunk.js",
   "static/js/1.0bd1c92a.chunk.js.map": "/static/js/1.0bd1c92a.chunk.js.map",
@@ -13,9 +13,9 @@
   "static/media/SmallBros.png": "/static/media/SmallBros.d98e83ef.png",
   "static/media/Evil_Ape_Club.png": "/static/media/Evil_Ape_Club.3386627c.png",
   "static/media/MiniSupers.png": "/static/media/MiniSupers.7f05ca4b.png",
-  "static/css/1.fa92e4c3.chunk.css.map": "/static/css/1.fa92e4c3.chunk.css.map",
   "static/css/main.161459fb.chunk.css.map": "/static/css/main.161459fb.chunk.css.map",
+  "static/css/1.fa92e4c3.chunk.css.map": "/static/css/1.fa92e4c3.chunk.css.map",
   "index.html": "/index.html",
-  "precache-manifest.3a8202df08502c88e0e496d9814f2c8f.js": "/precache-manifest.3a8202df08502c88e0e496d9814f2c8f.js",
+  "precache-manifest.c2764e7861e6cf62f86b1ca0f8420b85.js": "/precache-manifest.c2764e7861e6cf62f86b1ca0f8420b85.js",
   "service-worker.js": "/service-worker.js"
 }
