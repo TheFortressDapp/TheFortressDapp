@@ -21,7 +21,7 @@ const NavBar = ({ accounts, setAccounts }) => {
         if (window.ethereum) {
             const accounts = await window.ethereum.request({
                 method: "eth_requestAccounts",
-            })
+            });
             setAccounts(accounts);
         }
     }
@@ -45,7 +45,7 @@ const NavBar = ({ accounts, setAccounts }) => {
                                 <Image src={Discord} boxSize="42px" margin="0 20px" />
                             </Link>
                             <Link onClick={() => window.location = 'mailto:contact@thefortressnft.com'}>
-                                <Image src={Email} boxSize="42px" marginLeft="20px" />
+                                <Image src={Email} boxSize="42px" marginLeft="20px" just />
                             </Link>
                         </Flex>
                     </Flex>
@@ -60,15 +60,15 @@ const NavBar = ({ accounts, setAccounts }) => {
                     
                     
 
-                            <NavLink exact to="/" style={{ color: 'white', textDecoration: 'none' }} ><Box fontSize="30" margin="0 15px" paddingTop={"15"}>Home</Box></NavLink>
+                            <NavLink exact to="/" style={{ color: 'white', textDecoration: 'none' }} ><Box fontSize="30" margin="15px" padding="5px">Home</Box></NavLink>
                             <Spacer />
-                            <NavLink exact to="/about" style={{ color: 'white', textDecoration: 'none' }}><Box fontSize="30" margin="0 15px" paddingTop={"15"}>About</Box> </NavLink>
+                            <NavLink exact to="/about" style={{ color: 'white', textDecoration: 'none' }}><Box fontSize="30" margin="15px" padding="5px">About</Box> </NavLink>
                             <Spacer />
-                            <NavLink exact to="/roadmap" style={{ color: 'white', textDecoration: 'none' }}><Box fontSize="30" margin="0 15px" paddingTop={"15"}>Roadmap</Box> </NavLink>
+                            <NavLink exact to="/roadmap" style={{ color: 'white', textDecoration: 'none' }}><Box fontSize="30" margin="15px" padding="5px">Roadmap</Box> </NavLink>
                             <Spacer />
-                            <NavLink exact to="/team" style={{ color: 'white', textDecoration: 'none' }}><Box fontSize="30" margin="0 15px" paddingTop={"15"}>Team</Box> </NavLink>
+                            <NavLink exact to="/team" style={{ color: 'white', textDecoration: 'none' }}><Box fontSize="30" margin="15px" padding="5px">Team</Box> </NavLink>
                             <Spacer />
-                            <NavLink exact to="/fort" style={{ color: 'white', textDecoration: 'none' }}><Box fontSize="30" margin="0 15px" paddingTop={"15"}>Fort</Box> </NavLink>
+                            <NavLink exact to="/fort" style={{ color: 'white', textDecoration: 'none' }}><Box fontSize="30" margin="15px" padding="5px">Fort</Box> </NavLink>
                             <Spacer />
 
                             {isConnected ? (
@@ -79,9 +79,10 @@ const NavBar = ({ accounts, setAccounts }) => {
                                     color="white"
                                     cursor="pointer"
                                     fontFamily="inherit"
-                                    padding="5px"
-                                    margin="0 15px"
-                                    fontSize="30">Connected</Box>
+                                    padding="15px"
+                                    margin="5px"
+                                    fontSize="30px"
+                                    >Connected</Box>
                             ) : (
                                 <Box
                                     backgroundColor="#4267B3"
@@ -90,16 +91,12 @@ const NavBar = ({ accounts, setAccounts }) => {
                                     color="white"
                                     cursor="pointer"
                                     fontFamily="inherit"
-                                    padding="05px"
-                                    margin="0 5px"
-                                    fontSize="30"
+                                    padding="15px"
+                                    margin="5px"
+                                    fontSize="30px"
                                     onClick={connectAccount}
                                 > Connect </Box>
                             )}
-                            
-
-
-                        
 
                     </Nav>
                     </Flex>

@@ -21,12 +21,12 @@ const Accordion = () => {
 
     return (
         <IconContext.Provider value={{ color: '#4267B3', size: '40px' }}>
-            <Flex justify='center'>
-                <Box justifyContent='center'>
+            <Flex justify="center">
+                <Box justifyContent="center" width="100%">
                     {Data.map((item, index) => {
                         return (
                             <>
-                                <Flex justify='center' onClick={() => toggle(index)} key={index}>
+                                <Flex justify="center" onClick={() => toggle(index)} key={index}>
                                     <h1 style={{ fontSize: "35px", justify:"center" }}>{item.title}</h1>
                                     <span>{clicked === index ? <FiMinus /> : <FiPlus />}</span>
                                     <span></span>

@@ -1,6 +1,6 @@
 import React from "react";
 import { useState } from "react";
-import {ethers, BigNumber} from 'ethers' ;
+import { ethers, BigNumber } from 'ethers';
 import theNFTFortress from './TheNFTFortress.json';
 import { Box, Button, Flex, Input, Text, Image } from "@chakra-ui/react";
 import Logo from "./assets/background/The_Fortress_Logo_Clear.png";
@@ -8,11 +8,11 @@ import Logo from "./assets/background/The_Fortress_Logo_Clear.png";
 
 const theNFTFortressAddress = "0x08be79d4EBd36F9c49FB04140C5842B91B39f71F";
 
-const MainMint = ({accounts, setAccounts}) => {
+const MainMint = ({ accounts, setAccounts }) => {
     const [mintAmount, setMintAmount] = useState(1);
     const isConnected = Boolean(accounts[0]);
 
-    async function handdleMint(){
+    async function handdleMint() {
         if (window.ethereum) {
             const provider = new ethers.providers.Web3Provider(window.ethereum);
             const signer = provider.getSigner();
@@ -34,7 +34,6 @@ const MainMint = ({accounts, setAccounts}) => {
         }
     };
 
-    
 
     const handleDecrement = () => {
         if (mintAmount <= 1) return;
@@ -46,27 +45,27 @@ const MainMint = ({accounts, setAccounts}) => {
         setMintAmount(mintAmount + 1);
     };
 
-    
+
 
     return (
-        <Flex id= "Mainmint" justify ="center" align="top" height="80vh" >
-            
+        <Flex id="Mainmint" justify="center" align="top" height="80vh" >
+
             <Box width="1000px">
                 <div>
                     <Image src={Logo} boxSize="200px" margin="0 10px" align="center" justify="center" />
                     <Text fontSize="48px" textShadow="0 5px #000000">
-                    The Fortress
+                        The Fortress
                     </Text>
 
                     <Text fontSize="30px" letterSpacing="-3%" fontFamily="VT323" textShadow="0 2px #000000">
-                    When Fear, Uncertainty, and Doubt are whispers carried by the wind, come and find protection for your digital assets at The Fortress.
-                    
-                     </Text>
+                        When Fear, Uncertainty, and Doubt are whispers carried by the wind, come and find protection for your digital assets at The Fortress.
 
-                 </div>
+                    </Text>
 
-            {isConnected ? (
-                <><div>
+                </div>
+
+                {isConnected ? (
+                    <><div>
                         <Flex align="center" justify="center">
                             <Button
                                 backgroundColor="#4267B3"
@@ -112,60 +111,60 @@ const MainMint = ({accounts, setAccounts}) => {
                             onClick={handdleMint}>Mint Now</Button>
                     </div><div>
 
-                    <Text 
-                                fontSize="30px" 
-                                letterSpacing="-5.5%" 
-                                fontFamily="VT323" 
+                            <Text
+                                fontSize="30px"
+                                letterSpacing="-5.5%"
+                                fontFamily="VT323"
                                 textShadow="0 2px #000000"
                                 align="center">
-                                    Mint Price is .05 ETH per NFT 
-                                    
-                                </Text>
-                                <Text 
-                                fontSize="30px" 
-                                letterSpacing="-5.5%" 
-                                fontFamily="VT323" 
+                                Mint Price is .25 ETH per NFT
+
+                            </Text>
+                            <Text
+                                fontSize="30px"
+                                letterSpacing="-5.5%"
+                                fontFamily="VT323"
                                 textShadow="0 2px #000000"
-                                align="center"> 
-                                    not including gas
-                                </Text>
+                                align="center">
+                                not including gas
+                            </Text>
 
                         </div></>
-                    
-            ) : (
-                <><Text
-                            marginTop="70px"
-                            fontSize="30px"
-                            letterSpacing="-5.5%"
-                            fontFamily="VT323"
-                            textShadow="0 3px #000000"
-                            color="#4267B3"
-                        >Please connect wallet to mint</Text>
+
+                ) : (
+                    <><Text
+                        marginTop="70px"
+                        fontSize="30px"
+                        letterSpacing="-5.5%"
+                        fontFamily="VT323"
+                        textShadow="0 3px #000000"
+                        color="#4267B3"
+                    >Please connect wallet to mint</Text>
                         <div>
 
-                                <Text 
-                                fontSize="30px" 
-                                letterSpacing="-5.5%" 
-                                fontFamily="VT323" 
+                            <Text
+                                fontSize="30px"
+                                letterSpacing="-5.5%"
+                                fontFamily="VT323"
                                 textShadow="0 2px #000000"
                                 align="center">
-                                    Mint Price is .05 ETH per NFT 
-                                    
-                                </Text>
-                                <Text 
-                                fontSize="30px" 
-                                letterSpacing="-5.5%" 
-                                fontFamily="VT323" 
-                                textShadow="0 2px #000000"
-                                align="center"> 
-                                    not including gas
-                                </Text>
+                                Mint Price is .25 ETH per NFT
 
-                            </div></>
-            )}
+                            </Text>
+                            <Text
+                                fontSize="30px"
+                                letterSpacing="-5.5%"
+                                fontFamily="VT323"
+                                textShadow="0 2px #000000"
+                                align="center">
+                                not including gas
+                            </Text>
+
+                        </div></>
+                )}
             </Box>
-            </Flex>
-        
+        </Flex>
+
     );
 };
 

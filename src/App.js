@@ -1,5 +1,6 @@
 import React from "react";
 import { useState } from 'react';
+
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { Routes, Route} from "react-router-dom";
@@ -10,10 +11,6 @@ import TeamComp from "./TeamComp";
 import FortComp from "./FortComp";
 import AboutComp from './AboutComp'
 import MintingSoon from "./MintingSoon"
-
-
-
-
 
 
 function App() {
@@ -29,7 +26,7 @@ function App() {
     <NavBar accounts={accounts} setAccounts={setAccounts} />
   
     <Routes>
-    <Route path="/" element={<MintingSoon/>}/>
+    <Route path="/" element={<MainMint accounts={accounts} setAccounts={setAccounts}/>}/>
     <Route path="/roadmap" element={<RoadmapComp/>}/>
     <Route path="/team" element={<TeamComp/>}/>
     <Route path="/fort" element={<FortComp/>}/>
