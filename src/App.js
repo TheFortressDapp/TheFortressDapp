@@ -26,7 +26,7 @@ function App() {
     <NavBar accounts={accounts} setAccounts={setAccounts} />
   
     <Routes>
-    <Route path="/" element={<MainMint accounts={accounts} setAccounts={setAccounts}/>}/>
+    <Route path="/TheFortressDapp" element={<MainMint accounts={accounts} setAccounts={setAccounts}/>}/>
     <Route path="/roadmap" element={<RoadmapComp/>}/>
     <Route path="/team" element={<TeamComp/>}/>
     <Route path="/fort" element={<FortComp/>}/>
