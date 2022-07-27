@@ -1,19 +1,19 @@
 self.__precacheManifest = [
   {
-    "revision": "b5a5f53d2fc75926197a",
-    "url": "/TheFortressDapp/static/css/main.aa43215b.chunk.css"
+    "revision": "63030176e0f5dcad9db2",
+    "url": "/TheFortressDapp/static/css/main.161459fb.chunk.css"
   },
   {
-    "revision": "b5a5f53d2fc75926197a",
-    "url": "/TheFortressDapp/static/js/main.b5a5f53d.chunk.js"
+    "revision": "63030176e0f5dcad9db2",
+    "url": "/TheFortressDapp/static/js/main.63030176.chunk.js"
   },
   {
-    "revision": "e5467656f362c3a8c233",
-    "url": "/TheFortressDapp/static/css/1.201c54ba.chunk.css"
+    "revision": "0bd1c92a90d052d20eb5",
+    "url": "/TheFortressDapp/static/css/1.fa92e4c3.chunk.css"
   },
   {
-    "revision": "e5467656f362c3a8c233",
-    "url": "/TheFortressDapp/static/js/1.e5467656.chunk.js"
+    "revision": "0bd1c92a90d052d20eb5",
+    "url": "/TheFortressDapp/static/js/1.0bd1c92a.chunk.js"
   },
   {
     "revision": "811aec1bcf0789b3fc29",
@@ -44,7 +44,7 @@ self.__precacheManifest = [
     "url": "/TheFortressDapp/static/media/MiniSupers.7f05ca4b.png"
   },
   {
-    "revision": "eebf2786f8726578acd3f56b0d80358d",
+    "revision": "6189d452990d05133973148417529d1d",
     "url": "/TheFortressDapp/index.html"
   }
 ];
