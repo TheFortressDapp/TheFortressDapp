@@ -21,10 +21,10 @@ function TeamComp (){
                     </Text>
 
                     <Text fontSize="30px" letterSpacing="-5.5%" fontFamily="VT323" textShadow="0 2px #000000">
-                    This is where the magic happens
+                    This is where the magic will happen
                      </Text>
                      <Text fontSize="30px" letterSpacing="-5.5%" fontFamily="VT323" textShadow="0 2px #000000">
-                    (Coming Soon)
+                    (Coming Soon. Follow us on Twitter)
                      </Text>
 
                  </div>

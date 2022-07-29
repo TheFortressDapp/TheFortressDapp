@@ -14,7 +14,7 @@ function RoadmapComp (){
             
             <Box justify="center" width="1000px" >
                 <div>
-                    <Text fontSize="35px" textShadow="0 5px #000000" marginBottom='30'>
+                    <Text fontSize="40px" textShadow="0 5px #000000" paddingTop="30px" paddingBottom="15px">
                         The Roadmap
                     </Text>
 
@@ -22,16 +22,16 @@ function RoadmapComp (){
                         Phase I
                     </Text>
                     <Box lineHeight=".5">
-                    <Text fontSize="25px" letterSpacing="-5.5%" fontFamily="VT323" textShadow="0 2px #000000" >
+                    <Text fontSize="30px" letterSpacing="-5.5%" fontFamily="VT323" textShadow="0 2px #000000" >
                         - Launch "The Fortress" NFT Contract -                    
                     </Text>
-                    <Text fontSize="25px" letterSpacing="-5.5%" fontFamily="VT323" textShadow="0 2px #000000"> 
+                    <Text fontSize="30px" letterSpacing="-5.5%" fontFamily="VT323" textShadow="0 2px #000000"> 
                         - Launch "The Fortress" Pairing Contract -  
                     </Text>
-                    <Text fontSize="25px" letterSpacing="-5.5%" fontFamily="VT323" textShadow="0 2px #000000">  
+                    <Text fontSize="30px" letterSpacing="-5.5%" fontFamily="VT323" textShadow="0 2px #000000">  
                         - Launch "The Fort" Dashboard with protection for up to 5 ETH -
                     </Text>
-                    <Text fontSize="25px" letterSpacing="-5.5%" fontFamily="VT323" textShadow="0 2px #000000">
+                    <Text fontSize="30px" letterSpacing="-5.5%" fontFamily="VT323" textShadow="0 2px #000000">
                         - Launch Dashboard for New Collections request for approval - 
                     </Text>
                     </Box>
@@ -41,13 +41,13 @@ function RoadmapComp (){
                         Phase II
                     </Text>
                     <Box lineHeight=".5">
-                    <Text fontSize="25px" letterSpacing="-5.5%" fontFamily="VT323" textShadow="0 2px #000000">
+                    <Text fontSize="30px" letterSpacing="-5.5%" fontFamily="VT323" textShadow="0 2px #000000">
                         - Activate protection for up to 20 ETH -                        
                     </Text>
-                    <Text fontSize="25px" letterSpacing="-5.5%" fontFamily="VT323" textShadow="0 2px #000000"> 
+                    <Text fontSize="30px" letterSpacing="-5.5%" fontFamily="VT323" textShadow="0 2px #000000"> 
                         - Extend protection to other Digital Assets -
                     </Text>
-                    <Text fontSize="25px" letterSpacing="-5.5%" fontFamily="VT323" textShadow="0 2px #000000">  
+                    <Text fontSize="30px" letterSpacing="-5.5%" fontFamily="VT323" textShadow="0 2px #000000">  
                         - Launch "Alpha" group for Diamond holders - 
                     </Text>
 
@@ -55,14 +55,14 @@ function RoadmapComp (){
                         Phase III
                     </Text>
                     
-                    <Text fontSize="25px" letterSpacing="-5.5%" fontFamily="VT323" textShadow="0 2px #000000">
+                    <Text fontSize="30px" letterSpacing="-5.5%" fontFamily="VT323" textShadow="0 2px #000000">
                         - Activate protection for up to 50 ETH -                       
                     </Text>
-                    <Text fontSize="25px" letterSpacing="-5.5%" fontFamily="VT323" textShadow="0 2px #000000"> 
+                    <Text fontSize="30px" letterSpacing="-5.5%" fontFamily="VT323" textShadow="0 2px #000000"> 
                         - Build "The Fortress" in the Metaverse -
                     </Text>
-                    <Text fontSize="25px" letterSpacing="-5.5%" fontFamily="VT323" textShadow="0 2px #000000"> 
-                        - Initiate "The Fortress" Training -
+                    <Text fontSize="30px" letterSpacing="-5.5%" fontFamily="VT323" textShadow="0 2px #000000"> 
+                        - Initiate "The Fortress" R.T.D. Program -
                     </Text>
 
                 

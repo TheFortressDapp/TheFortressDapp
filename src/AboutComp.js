@@ -10,9 +10,9 @@ function AboutComp() {
     return (
         <Flex justify="center" align="top" height="70vh" paddingTop="30px" >
 
-            <Box justify="center" width="1000px" >
+            <Box justify="center" width="70%" >
                 <div>
-                    <Text fontSize="40px" textShadow="0 5px #000000" marginBottom='30'>
+                    <Text fontSize="40px" textShadow="0 5px #000000" paddingTop="30px" paddingBottom="15px">
                         Our Story
                     </Text>
 

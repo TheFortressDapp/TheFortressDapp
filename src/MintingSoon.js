@@ -17,7 +17,7 @@ function MintingSoon (){
                     The Fortress
                     </Text>
 
-                    <Text fontSize="30px" letterSpacing="-5.5%" fontFamily="VT323" textShadow="0 2px #000000">
+                    <Text fontSize="35px" letterSpacing="-5.5%" fontFamily="VT323" textShadow="0 2px #000000">
                     Welcome
                      </Text>
                      <Text fontSize="30px" letterSpacing="-5.5%" fontFamily="VT323" textShadow="0 2px #000000">

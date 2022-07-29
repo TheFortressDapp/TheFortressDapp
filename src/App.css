@@ -8,6 +8,13 @@
   text-decoration: none;
 }
 
+h1, h2, h3, h3 > a, p, li {
+  font-family: "Press Start 2P", "VT323";
+  font-weight: normal;
+  font-style: normal; 
+  text-decoration: none;
+}
+
 
 
 *{

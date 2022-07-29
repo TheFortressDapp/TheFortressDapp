@@ -41,11 +41,11 @@ const NavBar = ({ accounts, setAccounts }) => {
                             <Link href="https://twitter.com/thefortressnft">
                                 <Image src={Twitter} boxSize="42px" margin="0 20px" />
                             </Link>
-                            <Link href="http://www.discord.com">
+                            {/* <Link href="http://www.discord.com">
                                 <Image src={Discord} boxSize="42px" margin="0 20px" />
-                            </Link>
-                            <Link onClick={() => window.location = 'mailto:contact@thefortressnft.com'}>
-                                <Image src={Email} boxSize="42px" marginLeft="20px" just />
+                            </Link> */}
+                            <Link  onClick={() => window.location = 'mailto:contact@thefortressnft.com'}>
+                                <Image src={Email} boxSize="42px" marginLeft="20px" />
                             </Link>
                         </Flex>
                     </Flex>
@@ -57,10 +57,8 @@ const NavBar = ({ accounts, setAccounts }) => {
                 <Navbar.Collapse id="basic-navbar-nav" >
                 <Flex className="navbar" justify="center">
                     <Nav>
-                    
-                    
 
-                            <NavLink exact to="/" style={{ color: 'white', textDecoration: 'none' }} ><Box fontSize="30" margin="15px" padding="5px">Home</Box></NavLink>
+                            <NavLink exact to="/" style={{ color: 'white', textDecoration: 'none' }} ><Box fontSize="30" marginRight="15px" marginTop="15px" padding="5px">Home</Box></NavLink>
                             <Spacer />
                             <NavLink exact to="/about" style={{ color: 'white', textDecoration: 'none' }}><Box fontSize="30" margin="15px" padding="5px">About</Box> </NavLink>
                             <Spacer />

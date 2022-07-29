@@ -22,7 +22,7 @@ const Accordion = () => {
     return (
         <IconContext.Provider value={{ color: '#4267B3', size: '40px' }}>
             <Flex justify="center">
-                <Box justifyContent="center" width="100%">
+                <Box justifyContent="center">
                     {Data.map((item, index) => {
                         return (
                             <>
