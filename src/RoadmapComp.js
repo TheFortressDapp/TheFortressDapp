@@ -21,17 +21,17 @@ function RoadmapComp (){
                     <Text fontSize="25px" textShadow="0 5px #000000" marginTop="50" color='#4267B3'>
                         Phase I
                     </Text>
-                    <Box lineHeight=".5">
-                    <Text fontSize="30px" letterSpacing="-5.5%" fontFamily="VT323" textShadow="0 2px #000000" >
+                    <Box >
+                    <Text backgroundColor='#4267B3' fontSize="30px" letterSpacing="-5.5%" fontFamily="VT323" textShadow="0 2px #000000" margin="5" >
                         - Launch "The Fortress" NFT Contract -                    
                     </Text>
-                    <Text fontSize="30px" letterSpacing="-5.5%" fontFamily="VT323" textShadow="0 2px #000000"> 
+                    <Text backgroundColor='#4267B3' fontSize="30px" letterSpacing="-5.5%" fontFamily="VT323" textShadow="0 2px #000000" margin="5"> 
                         - Launch "The Fortress" Pairing Contract -  
                     </Text>
-                    <Text fontSize="30px" letterSpacing="-5.5%" fontFamily="VT323" textShadow="0 2px #000000">  
+                    <Text backgroundColor='#4267B3' fontSize="30px" letterSpacing="-5.5%" fontFamily="VT323" textShadow="0 2px #000000" margin="5">  
                         - Launch "The Fort" Dashboard with protection for up to 5 ETH -
                     </Text>
-                    <Text fontSize="30px" letterSpacing="-5.5%" fontFamily="VT323" textShadow="0 2px #000000">
+                    <Text backgroundColor='#4267B3' fontSize="30px" letterSpacing="-5.5%" fontFamily="VT323" textShadow="0 2px #000000" margin="5">
                         - Launch Dashboard for New Collections request for approval - 
                     </Text>
                     </Box>
@@ -40,28 +40,30 @@ function RoadmapComp (){
                     <Text fontSize="25px" textShadow="0 5px #000000" marginTop="50" color='#4267B3'>
                         Phase II
                     </Text>
-                    <Box lineHeight=".5">
-                    <Text fontSize="30px" letterSpacing="-5.5%" fontFamily="VT323" textShadow="0 2px #000000">
+                    <Box >
+                    <Text backgroundColor='#4267B3' fontSize="30px" letterSpacing="-5.5%" fontFamily="VT323" textShadow="0 2px #000000" margin="5">
                         - Activate protection for up to 20 ETH -                        
                     </Text>
-                    <Text fontSize="30px" letterSpacing="-5.5%" fontFamily="VT323" textShadow="0 2px #000000"> 
+                    <Text backgroundColor='#4267B3' fontSize="30px" letterSpacing="-5.5%" fontFamily="VT323" textShadow="0 2px #000000" margin="5"> 
                         - Extend protection to other Digital Assets -
                     </Text>
-                    <Text fontSize="30px" letterSpacing="-5.5%" fontFamily="VT323" textShadow="0 2px #000000">  
+                    <Text backgroundColor='#4267B3' fontSize="30px" letterSpacing="-5.5%" fontFamily="VT323" textShadow="0 2px #000000" margin="5">  
                         - Launch "Alpha" group for Diamond holders - 
                     </Text>
+                    </Box>
+                    <Box>
 
                     <Text fontSize="25px" textShadow="0 5px #000000" marginTop="50" color='#4267B3'>
                         Phase III
                     </Text>
                     
-                    <Text fontSize="30px" letterSpacing="-5.5%" fontFamily="VT323" textShadow="0 2px #000000">
+                    <Text backgroundColor='#4267B3' fontSize="30px" letterSpacing="-5.5%" fontFamily="VT323" textShadow="0 2px #000000" margin="5">
                         - Activate protection for up to 50 ETH -                       
                     </Text>
-                    <Text fontSize="30px" letterSpacing="-5.5%" fontFamily="VT323" textShadow="0 2px #000000"> 
+                    <Text backgroundColor='#4267B3' fontSize="30px" letterSpacing="-5.5%" fontFamily="VT323" textShadow="0 2px #000000" margin="5"> 
                         - Build "The Fortress" in the Metaverse -
                     </Text>
-                    <Text fontSize="30px" letterSpacing="-5.5%" fontFamily="VT323" textShadow="0 2px #000000"> 
+                    <Text backgroundColor='#4267B3' fontSize="30px" letterSpacing="-5.5%" fontFamily="VT323" textShadow="0 2px #000000" margin="5"> 
                         - Initiate "The Fortress" R.T.D. Program -
                     </Text>
 

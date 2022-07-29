@@ -8,7 +8,6 @@ import MiniSupers from "./assets/team-images/MiniSupers.png"
 import Twitter from "./assets/social-media-icons/twitter_32x32.png";
 import Email from "./assets/social-media-icons/email_32x32.png";
 import { Link } from "@chakra-ui/react";
-import { FcApproval } from "react-icons/fc";
 import './App.css';
 import { useMediaQuery } from "@chakra-ui/react";
 
@@ -35,7 +34,7 @@ function TeamComp() {
                         MEET THE TEAM
                     </Text>
                     <Text fontSize="35px" letterSpacing="-3%" fontFamily="VT323">
-                        Amazing talent devoted to a single mission: To give you peace of mind on your Metaverse journey.
+                        Amazing talent devoted to a single mission: To give you peace of mind on your journey through the Metaverse.
 
                     </Text>
                 </div>
@@ -52,24 +51,22 @@ function TeamComp() {
                         <div >
                             <Image src={Killabears} boxSize="200px" justify="center" align="top" />
                             <Flex align={'center'} justify="center">
-                                <Text fontSize="25px" justify="center" margin="6px">
+                                <Text fontSize="25px" justify="center" margin="6px" textShadow="0 2px #000000">
                                     Mer
                                 </Text>
 
-                                <FcApproval />
-
                             </Flex>
-                            <Text fontSize="15px" justify="center" margin="6px">
+                            <Text fontSize="15px" justify="center" margin="6px" textShadow="0 2px #000000">
                                 Founder
                             </Text>
                             <Flex justify="center" >
 
                                 <Link href="https://twitter.com/realMerStudios">
-                                    <Image src={Twitter} boxSize="15px" margin="10px" />
+                                    <Image src={Twitter} boxSize="25px" margin="10px" />
                                 </Link>
 
                                 <Link onClick={() => window.location = 'mailto:contact@thefortressnft.com'}>
-                                    <Image src={Email} boxSize="15px" margin="10px" />
+                                    <Image src={Email} boxSize="25px" margin="10px" />
                                 </Link>
                             </Flex>
                         </div>
@@ -80,23 +77,23 @@ function TeamComp() {
                         <div>
                             <Image src={Evil_Ape_Club} boxSize="200px" justify="center" />
                             <Flex align={'center'} justify="center">
-                                <Text fontSize="25px" justify="center" margin="6px">
+                                <Text fontSize="25px" justify="center" margin="6px" textShadow="0 2px #000000">
                                     Mer
                                 </Text>
-                                <FcApproval />
+                                
                             </Flex>
-                            <Text fontSize="15px" justify="center" margin="6px">
+                            <Text fontSize="15px" justify="center" margin="6px" textShadow="0 2px #000000">
                                 Developer
                             </Text>
 
                             <Flex justify="center" >
 
                                 <Link href="https://twitter.com/realMerStudios">
-                                    <Image src={Twitter} boxSize="15px" margin="10px" />
+                                    <Image src={Twitter} boxSize="25px" margin="10px" />
                                 </Link>
 
                                 <Link onClick={() => window.location = 'mailto:contact@thefortressnft.com'}>
-                                    <Image src={Email} boxSize="15px" margin="10px" />
+                                    <Image src={Email} boxSize="25px" margin="10px" />
                                 </Link>
                             </Flex>
                         </div>
@@ -106,23 +103,23 @@ function TeamComp() {
                         <div>
                             <Image src={MiniSupers} boxSize="200px" justify="center" />
                             <Flex align={'center'} justify="center">
-                                <Text fontSize="25px" justify="center" margin="6px">
+                                <Text fontSize="25px" justify="center" margin="6px" textShadow="0 2px #000000">
                                     Mer
                                 </Text>
-                                <FcApproval />
+                                
                             </Flex>
-                            <Text fontSize="15px" justify="center" margin="6px">
+                            <Text fontSize="15px" justify="center" margin="6px" textShadow="0 2px #000000">
                                 Web Designer
                             </Text>
 
                             <Flex justify="center" >
 
                                 <Link href="https://twitter.com/realMerStudios">
-                                    <Image src={Twitter} boxSize="15px" margin="10px" />
+                                    <Image src={Twitter} boxSize="25px" margin="10px" />
                                 </Link>
 
                                 <Link onClick={() => window.location = 'mailto:contact@thefortressnft.com'}>
-                                    <Image src={Email} boxSize="15px" margin="10px" />
+                                    <Image src={Email} boxSize="25px" margin="10px" />
                                 </Link>
                             </Flex>
                         </div>
@@ -133,23 +130,23 @@ function TeamComp() {
                         <div>
                             <Image src={SmallBros} boxSize="200px" justify="center" />
                             <Flex align={'center'} justify="center">
-                                <Text fontSize="25px" justify="center" margin="6px">
+                                <Text fontSize="25px" justify="center" margin="6px" textShadow="0 2px #000000">
                                     Mer
                                 </Text>
-                                <FcApproval />
+                                
                             </Flex>
 
-                            <Text fontSize="15px" justify="center" margin="6px">
+                            <Text fontSize="15px" justify="center" margin="6px" textShadow="0 2px #000000">
                                 Artist
                             </Text>
                             <Flex justify="center" >
 
                                 <Link href="https://twitter.com/realMerStudios">
-                                    <Image src={Twitter} boxSize="15px" margin="10px" />
+                                    <Image src={Twitter} boxSize="25px" margin="10px" />
                                 </Link>
 
                                 <Link onClick={() => window.location = 'mailto:contact@thefortressnft.com'}>
-                                    <Image src={Email} boxSize="15px" margin="10px" />
+                                    <Image src={Email} boxSize="25px" margin="10px" />
                                 </Link>
                             </Flex>
                         </div>
@@ -160,23 +157,23 @@ function TeamComp() {
                         <div>
                             <Image src={Women_From_Venys} boxSize="200px" justify="center" />
                             <Flex align={'center'} justify="center">
-                                <Text fontSize="25px" justify="center" margin="6px">
+                                <Text fontSize="25px" justify="center" margin="6px" textShadow="0 2px #000000">
                                     Mer
                                 </Text>
-                                <FcApproval />
+                                
                             </Flex>
 
-                            <Text fontSize="15px" justify="center" margin="6px">
+                            <Text fontSize="15px" justify="center" margin="6px" textShadow="0 2px #000000">
                                 Marketing
                             </Text>
                             <Flex justify="center" >
 
                                 <Link href="https://twitter.com/realMerStudios">
-                                    <Image src={Twitter} boxSize="15px" margin="10px" />
+                                    <Image src={Twitter} boxSize="25px" margin="10px" />
                                 </Link>
 
                                 < Link onClick={() => window.location = 'mailto:contact@thefortressnft.com'}>
-                                    <Image src={Email} boxSize="15px" margin="10px" />
+                                    <Image src={Email} boxSize="25px" margin="10px" />
                                 </Link>
                             </Flex>
                         </div>

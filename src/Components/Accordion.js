@@ -28,14 +28,14 @@ const Accordion = () => {
                             <>
                                 <Flex justify="center" onClick={() => toggle(index)} key={index}>
                                     <h1 style={{ fontSize: "35px", justify:"center" }}>{item.title}</h1>
-                                    <span>{clicked === index ? <FiMinus /> : <FiPlus />}</span>
+                                    <span>{ clicked === index ? <FiMinus /> : <FiPlus />}</span>
                                     <span></span>
                                 </Flex>
                                 {clicked === index ? (
-                                    <Box justifyContent='center' background='rgba(66,103,179, 0.7)' padding='20px' fontSize="25px">
-                                        <Flex justify='center'>
+                                    <Box justifyContent='center' background='rgba(66,103,179, 1)' padding='20px' fontSize="25px" textShadow="0 2px #000000">
+                                        <Flex justify='center' textShadow="0 2px #000000">
                                             <p1>{item.definition_1}</p1>
-                                        </Flex>
+                                        </Flex >
                                         <p1>{item.definition_2}</p1>
                                         <p1>{item.definition_3}</p1>
                                     </Box>
