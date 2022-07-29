@@ -2,7 +2,7 @@ export const Data = [
     {
        title: 'The Problem',
        definition_1: '',  
-       definition_2: 'After our founder, Mer, got interested in NFTs, he quickly realized that there were no protections for new consumers that were entering the new world of Crypto. If the founders did not execute, the holders lost their investment. If the project got hacked, the holders lost their investment. If the project got "pumped and dumped" and/or "FUDed" by a third party, the holders lost their investment and the list went on. So he decided to create a solution.',
+       definition_2: 'After our founder, Mer, got interested in NFTs, he quickly realized that there were no protections for new NFT holders. If the founders did not execute, the holders would lose their investment. If the project got hacked, the holders would lose their investment. If the project got "pumped and dumped" or "FUDded" by a third party, the holders would lose their investment. So Mer decided to create a project that would solve these problems... The Fortress.',
        definition_3: '',    
     },
     {
