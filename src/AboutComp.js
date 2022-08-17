@@ -1,30 +1,36 @@
 import React from "react";
-import { Box, Flex, Text} from "@chakra-ui/react";
+import { Box, Flex, Text } from "@chakra-ui/react";
 import Accordion from "./Components/Accordion";
 import './App.css';
+import { useMediaQuery } from "@chakra-ui/react";
 
 
 function AboutComp() {
 
+    const [isLargerThan768] = useMediaQuery("(min-width: 768px)");
+
 
     return (
-        <Flex justify="center" align="top" height="70vh" paddingTop="30px" >
+        <section id="about">
 
-            <Box justify="center"  >
-                <div>
-                    <Text fontSize="40px" textShadow="0 5px #000000" paddingTop="30px" paddingBottom="15px">
-                        Our Story
-                    </Text>
+            <div>
+                <Text fontSize="40px" textShadow="0 5px #000000" paddingTop="20" paddingBottom="15px" height="10vh">
+                    Our Story
+                </Text>
 
-                </div>
-                
-                <div>
+            </div>
 
+
+            <Flex justify="center"  height={isLargerThan768 ? "90vh" : ""} paddingBottom="300" >
+
+
+                <Box  >
                     <Accordion />
 
-                </div>
-            </Box>
-        </Flex>
+                </Box>
+
+            </Flex>
+        </section >
 
     )
 

@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { Data } from "./Data";
 import { IconContext } from "react-icons";
 import { FiPlus, FiMinus } from 'react-icons/fi'
-import { Flex, Box } from "@chakra-ui/react";
+import { Flex, Box, Stack } from "@chakra-ui/react";
 import '../App.css';
 
 
@@ -20,20 +20,20 @@ const Accordion = () => {
     
 
     return (
-        <IconContext.Provider value={{ color: '#4267B3', size: '40px' }}>
-            <Flex justify="center">
-                <Box justifyContent="center">
+        <IconContext.Provider  value={{ color: '#4267B3', size: '40px' }}>
+            <Flex  justify="center"  >
+                <Box  >
                     {Data.map((item, index) => {
                         return (
                             <>
-                                <Flex justify="center" onClick={() => toggle(index)} key={index}>
-                                    <h1 style={{ fontSize: "35px", justify:"center" }}>{item.title}</h1>
-                                    <span>{ clicked === index ? <FiMinus /> : <FiPlus />}</span>
+                                <Stack  onClick={() => toggle(index)} key={index}>
+                                    <h1 style={{ fontSize: "35px" }}>{item.title}</h1>
+                                    <span> { clicked === index ? <FiMinus /> : <FiPlus />}</span>
                                     <span></span>
-                                </Flex>
+                                </Stack>
                                 {clicked === index ? (
-                                    <Box justifyContent='center' background='rgba(66,103,179, 1)' padding='20px' fontSize="25px" textShadow="0 2px #000000">
-                                        <Flex justify='center' textShadow="0 2px #000000">
+                                    <Box  background='rgba(66,103,179, 1)'  fontFamily="VT323" padding='20px' fontSize="30px" textShadow="0 2px #000000" margin="5">
+                                        <Flex >
                                             <p1>{item.definition_1}</p1>
                                         </Flex >
                                         <p1>{item.definition_2}</p1>

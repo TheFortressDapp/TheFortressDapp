@@ -6,7 +6,11 @@ import { Box, Button, Flex, Input, Text, Image } from "@chakra-ui/react";
 import Logo from "./assets/background/The_Fortress_Logo_Clear.png";
 
 
+
+
 const theNFTFortressAddress = "0x08be79d4EBd36F9c49FB04140C5842B91B39f71F";
+
+
 
 const MainMint = ({ accounts, setAccounts }) => {
     const [mintAmount, setMintAmount] = useState(1);
@@ -35,6 +39,7 @@ const MainMint = ({ accounts, setAccounts }) => {
     };
 
 
+
     const handleDecrement = () => {
         if (mintAmount <= 1) return;
         setMintAmount(mintAmount - 1);
@@ -47,8 +52,11 @@ const MainMint = ({ accounts, setAccounts }) => {
 
 
 
+
+
     return (
-        <Flex id="Mainmint" justify="center" align="top" height="80vh" >
+        <section id="Mainmint">
+        <Flex  justify="center" align="top" >
 
             <Box width="1000px">
                 <div>
@@ -164,6 +172,8 @@ const MainMint = ({ accounts, setAccounts }) => {
                 )}
             </Box>
         </Flex>
+        </section>
+       
 
     );
 };

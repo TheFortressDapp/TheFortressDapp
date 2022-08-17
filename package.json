@@ -6,6 +6,8 @@
     "@chakra-ui/react": "^2.0.0",
     "@emotion/react": "^11.9.0",
     "@emotion/styled": "^11.8.1",
+    "@fontsource/press-start-2p": "^4.5.9",
+    "@fontsource/vt323": "^4.5.9",
     "@openzeppelin/contracts": "^4.6.0",
     "@testing-library/jest-dom": "^5.16.4",
     "@testing-library/react": "^13.2.0",
@@ -14,6 +16,7 @@
     "ethers": "^5.6.9",
     "framer-motion": "^4.1.17",
     "git": "^0.1.5",
+    "normalize.css": "^8.0.1",
     "npm-git-install": "^0.3.0",
     "react": "^18.1.0",
     "react-bootstrap": "^2.4.0",
@@ -25,7 +28,6 @@
     "styled-components": "^5.3.5",
     "web-vitals": "^2.1.4"
   },
-  
   "scripts": {
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",

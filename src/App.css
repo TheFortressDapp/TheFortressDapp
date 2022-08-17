@@ -1,28 +1,42 @@
 @import url("http://fonts.googleapis.com/css?family=Press+Start+2P");
-@import url("http://fonts.googleapis.com/css?family=VT323");
+@import url('https://fonts.googleapis.com/css2?family=VT323&display=swap');
+
+
 
 .App {
   text-align: center;
-  font-family: "Press Start 2P", "VT323";
+  font-family: 'Press Start 2P', 'VT323';
   color: rgb(255, 255, 255);
   text-decoration: none;
+  background-color: black;
+
+  
+
+  
 }
 
-h1, h2, h3, h3 > a, p, li {
-  font-family: "Press Start 2P", "VT323";
+h1,
+h2,
+h3,
+h3>a,
+p,
+li {
+  font-family: 'Press Start 2P', 'VT323';
   font-weight: none;
-  font-style: none; 
+  font-style: none;
   text-decoration: none;
 }
 
-
-
-*{
+* {
   box-sizing: border-box;
+
 }
 
+
+
 body {
-  overflow: show;
+  overflow:visible;
+  font-family: 'Press Start 2P', 'VT323';
 }
 
 .active {
@@ -32,15 +46,24 @@ body {
 
 .navbar {
   margin-left: auto;
+  position:relative;
+  top: 0;
+  background-color: black;
+ 
 }
 
 .navbar-icons {
   margin-right: auto;
 }
 
+.sroll-to-top {
+  position: stikcy;
+  
+}
+
 .moving-background {
   z-index: -1;
-  position:fixed;
+  position: fixed;
   top: 0;
   left: 0;
   right: 0;
@@ -49,67 +72,26 @@ body {
   background-size: auto;
   background-repeat: repeat-y;
   background-attachment: fixed;
-  background-position: 100% 100% ;
+  background-position: 100% 100%;
   margin-left: auto;
   margin-right: auto;
   list-style: none;
   text-decoration: none;
-}
-
-.fortress_team_card {
-  background: rgba(109, 108, 108, 0.05);
-  backdrop-filter: blur(10px);
-  max-width: 100%;
-  height: 300px;
-  position: relative;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: column;
-  color: #ffffff;
-  font-size: 30px;
-  line-height: 34px;
-  text-align: center;
-  margin-top: 28px;
-  margin-bottom: 4px;
-  
+  font-family: 'Press Start 2P', 'VT323';
 }
 
 
-.AccordionSection{
- 
-  
+
+.AccordionSection {
+
+
   justify-content: center;
   height: 100vh;
   background: black;
-  font-size:15px;
-  text-shadow:"0 5px #000000"; 
-  margin:'5'
-  
+  font-size: 15px;
+  text-shadow: "0 5px #000000";
+  margin: '5'
 
-  
 
-}
-.Container {
-  position:center;
-  top: 30%;
- 
-}
-
-.Wrapper {
-  background: #000000;
-  color: #ffffff;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 100%;
-  text-align: center;
-  cursor: pointer;
-  
 
 }
-.BlueColor {
-  color: #4267B3;
-}
-
-
